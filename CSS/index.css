@@ -1,0 +1,741 @@
+/* **********************/
+/*----CSS RESET---------*/
+/***********************/
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+/* ******************************/
+/*-----NAVBAR STYLING START----*/
+/********************************/
+
+/*SECTION-01 {NAVBAR}*/
+
+.upper{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo{
+    height: 80px;
+    margin: .8rem 1.1rem;
+    cursor: pointer;
+}
+
+.btn{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: .800rem;
+    padding: .6rem 1rem ;
+    margin-right:2rem ;
+    border-radius: 4px;
+    border: 2px solid rgb(92, 92, 252);
+    outline: none;
+    cursor: pointer;
+    background-color: rgb(92, 92, 252);
+    color: white;
+    font-weight: 700;
+    text-transform: uppercase;
+    transition: .4s;
+}
+
+.btn:hover{
+    color:white;
+    background-color: rgba(5, 5, 230,.8);
+    transition: .4s;
+}
+
+.btn:hover > .phone{
+    color: aqua;
+    transition: .4s;
+}
+
+.phone{
+    margin-left:2px;
+    color: aqua;
+    border-radius: 4px;
+}
+
+/*SECTION-02 {NAVBAR}*/
+
+.lower{
+    background-color: #14cdc8;
+    display: flex;
+    justify-content: flex-start;
+    z-index: 100;
+    width: 100%;
+}
+
+.lower li {
+    display: inline-block;
+    padding: 1.2rem .7rem;
+}
+
+.lower li a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 1rem;
+    font-weight: 450;
+    letter-spacing: .08rem; 
+}
+
+.lower li a i{
+    padding: 0 .3rem;
+    font-size: 1rem;
+}
+
+.lower li a:hover{
+    color: blue;
+    font-weight: 500;
+}
+
+.lower li a:hover > i{
+    color: #ec644b;
+    transition: .5s;
+}
+
+.fa-caret-right{
+    transform: rotate(90deg);
+    
+}
+.lower li a:hover > .fa-caret-right{
+    transform: rotate(-90deg);
+}
+
+.fixed{
+    position: fixed;
+    top: 7px;
+}
+
+.fixedL{
+    position: fixed;
+    top: 7px;
+}
+
+.fixedd{
+    position: fixed;
+    top:7px;
+    display: block;
+}
+
+
+
+
+
+
+/* ****************************************** */
+/*---------------PROGRESS BAR---------------*/
+/* ****************************************** */
+
+
+/* Style the header: fixed position (always stay at the top) */
+.header {
+    position: fixed;
+    top: 0;
+    z-index: 100;
+    width: 100%;
+    background-color: white;
+  }
+  
+  /* The progress container (grey background) */
+  .progress-container {
+    width: 100%;
+    height: 8px;
+  }
+  
+  /* The progress bar (scroll indicator) */
+  .progress-bar {
+    height: 8px;
+    background: rgb(92, 92, 252);
+    width: 0%;
+  }
+
+/*********************************/
+/*-----HAMBURGER-ICON-DESING-----*/
+/*********************************/
+
+.hamburger-list{
+    background-color: rgb(92, 92, 252); 
+    width: 100%; 
+    height: 35px;
+    display: flex; 
+    flex-direction: column; 
+    padding: .6rem 1rem;
+    z-index: 10;
+    box-shadow: 0 2px 5px 1px grey;
+}
+
+.top{
+    width: 30px; 
+    height: 3px; 
+    background-color: white;
+    border-radius: 30px;
+}
+
+.middle{
+    width: 30px; 
+    height: 3px; 
+    background-color: white;
+    margin: 4px 0;
+    border-radius: 30px;
+}
+
+.bottom{
+    width: 30px; 
+    height: 3.2px; 
+    background-color: white;
+    border-radius: 30px;
+}
+
+/*###########################*/
+/*-----NAVBAR STYLING END----*/
+/*##########################***/
+
+
+
+
+
+
+/* *************************************** */
+/*--------------SLIDER STYLE-----------*/
+/* *************************************** */
+
+.mySlides {display: none}
+
+.slider-img {vertical-align: middle;}
+
+/* Slideshow container */
+.slideshow-container {
+  position: relative;
+  z-index: .5;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  padding: 16px;
+  margin-top: -22px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+/*Animation for Slider*/
+@-webkit-keyframes fade {
+    from {opacity: .4} 
+    to {opacity: 1}
+  }
+  
+@keyframes fade {
+    from {opacity: .4} 
+    to {opacity: 1}
+  }
+
+
+
+/* ****************************************** */
+/*---------LARGE-BOTTOM-POSTER---------------*/
+/* ****************************************** */
+
+
+
+
+  
+/* ****************************************** */
+/*---------------FOOTER---------------*/
+/* ****************************************** */
+
+/* -F-ICON DESING */
+
+.fa-linkedin{
+    color:  #0a66c2;
+}
+
+.fa-facebook-square{
+    color:  #1877f2;
+}
+
+.fa-twitter-square{
+    color: #1da1f2;
+}
+
+.fa-instagram-square{
+    color: #c32aa3;
+}
+
+.fa-youtube{
+    color:  #ff0000;
+}
+
+.fa-image{
+    color: #87ceeb;
+}
+
+.fa-video{
+    color:#3b7a57;
+}
+
+.fa-newspaper{
+    color:  #636c75;
+}
+/* icon style end */
+
+
+/* ****************** */
+
+.space{
+  
+    padding: .5rem 0;
+}
+
+.space2{
+    padding-left: 1.2rem;
+}
+
+.pad-left{
+    padding-left: .5rem;
+}
+
+.icon-pad{
+    padding: 0 5px;
+}
+
+.anchor{
+    text-decoration: none;
+    color: white;
+    font-size: .8rem;
+
+}
+
+.anchor:hover{
+    text-decoration: underline;
+    color: #0a66c2;
+}
+/* ****************** */
+
+.f-contact{
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+}
+
+.c-white{
+    color: #14cdc8;
+}
+
+.spc-icon{
+    color: #0a66c2;
+}
+
+.num1 , .num2{
+    color: #14cdc8;
+}
+
+/* ************************** */
+.subdiv{
+    display: flex;
+    background: black;
+    padding-top: .9rem;
+    padding-bottom: .9rem;
+    /* padding-left: .5rem; */
+}
+
+/* ************************** */
+
+.media{
+    width: 21%;
+    display: flex;
+    flex-direction: column;
+}
+
+/* ******************************* */
+
+.gallery{
+    width: 21%;
+    display: flex;
+    flex-direction: column;
+}
+
+.f-mid{
+    background: rgb(219, 202, 107);
+    position: relative;
+    width:28%;
+    margin-right: 1px;
+    height: 5%;
+}
+
+.v-thambnil{
+    opacity: .7;
+    display: block;
+    width: 100%;
+    height: auto;
+    transition: .5s ease;
+    backface-visibility:hidden;
+    cursor: pointer;
+    
+}
+
+.text-vtour{
+    transition: .5s ease;
+    opacity: 1;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.f-mid:hover .v-thambnil{
+    opacity: 1;
+    width: 100%;
+
+
+}
+
+.f-mid:hover .text-vtour{
+    opacity: 0;
+    
+}
+
+.text{
+    font-family:fantasy;
+    color:rgb(33, 33, 58);
+    padding-bottom: .05rem;
+}
+
+.text2{
+    color: #0f3331;
+    font-family: fantasy;
+    letter-spacing: .002rem;
+}
+
+.fa-hand-point-down{
+    animation: point-down .8s linear  infinite alternate;
+    font-size: 1.2rem;
+}
+
+@keyframes point-down{
+    from{
+        color: red;
+    }
+    to{
+        color: blue;
+    }
+}
+
+/* ************* */
+
+.f-bottom{
+    min-width: 100wh;
+    display: flex;
+    justify-content: space-between;
+    padding:20px 0;
+}
+
+.f-img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 30%;
+
+}
+.copyright{
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.cpy-p{
+    font-size: .6rem;
+    padding: 3px 5px;
+}
+
+#f-img-logo{
+    max-height: 5rem;
+}
+
+#direct-cv{
+    text-decoration: none;
+}
+
+
+/* ****************************************** */
+/*---------------@MEDIA QUEARY---------------*/
+/* ****************************************** */
+
+
+
+/*-----BREAK-POINT : 05-----------*/
+
+@media only screen and (max-width:725px){
+    .f-bottom{
+        flex-direction: column;
+        width: 100%;
+        align-items: center;
+    }
+    .copyright{
+        width: 100%;
+    }
+
+    .f-img{
+        width: 100%;
+    }
+
+}
+
+/*-----BREAK-POINT : 04-----------*/
+
+@media only screen and (max-width:449px){
+    .logo{
+        margin: .5rem .6rem;
+    }
+
+    button.btn{
+        padding: 4px 5px;
+        margin-right: .2rem;
+         font-weight: 550;
+    }
+
+  .phone{
+      padding: 0px;
+     
+    }
+}
+
+/*-----BREAK-POINT : 03-----------*/
+
+@media only screen and (max-width:450px){
+    .logo{
+        height: 60px;
+    }
+
+    .lower li a i{
+        font-size: .6rem;
+        padding-right: .3;
+        padding-left: 0;
+    }
+
+    .btn{
+        margin-right: .3rem;
+    } 
+
+}
+
+/*-----BREAK-POINT : 02-----------*/
+
+@media only screen and (max-width:740px){
+   
+    .lower{
+        display: none;
+        background: rgb(36, 35, 35);
+    }
+
+    .lower li  {
+        width: 100%;
+    }
+    
+    .lower li a {
+        font-size: .8rem;
+        text-transform: uppercase;
+        padding: 1.2rem .5rem;
+        
+      
+    }
+
+
+    .lower li a:hover{
+        font-weight: 700;
+    }
+    
+    .lower li a i{
+        font-size: .9rem;
+    }
+
+    .btn{
+        font-size: .600rem;
+        padding: .4rem .7rem ;
+    }  
+
+    .hamburger-list{
+        display: block;
+    }
+
+    .progress-bar{
+        background-color: rgb(252, 185, 62);
+    }
+
+    .subdiv{
+        flex-direction: column;
+        background: black ;
+    }
+
+    .f-contact{
+        width: 100%;
+    }
+
+    .media{
+        width: 100%;
+    }
+    
+    .space2{
+        padding-left: 0;
+    }
+   
+    .gallery{
+        width: 100%;
+    }
+
+    .f-mid{
+        width: 100%;
+
+    }
+
+    .anchor{
+        font-size: .8rem;
+        color: white;
+    }
+
+    .pad-left{
+        padding: 1rem;
+    }
+
+    .c-white{
+        color: #14cdc8;
+    }
+
+    .spc-icon{
+        color: #0a66c2;
+    }
+
+    .num1 , .num2{
+        color: #14cdc8;
+    }
+    .subdiv{
+        padding-bottom: 0;
+    }
+
+    .fixedL{
+        top: 42px;
+    }
+    
+
+
+}
+
+@media only screen and ( min-width: 741px ) and (max-width: 769px){
+    .space2{
+        padding-left: .9rem;
+    }
+    
+    .anchor{
+        font-size: .7rem;
+    }
+
+    .c-head , .m-head, .g-head{
+        font-size: 1rem;
+        
+    }
+
+    .text, .text2{
+        font-size: .6rem;
+    }
+  
+    
+}
+
+
+@media only screen and (min-width : 741px){
+    .hamburger-list{
+        display: none;
+    }
+}
+
+
+/*----BREAK-POINT : 01-----------*/
+
+@media only screen  and (max-width:1026px){
+    .btn{
+        font-size: .700rem;
+        padding: .4rem .7rem ;
+        margin-right: .5;
+    }
+    
+    .lower li{
+        padding: 0 0.5rem ;
+        padding: 1.1rem .5rem;
+    }
+
+    .lower li a{
+        font-size: .7rem ;
+    }
+
+    .lower li a i{
+        font-size: .9rem;
+    }
+    
+    #f-img-logo{
+        height: 3.8rem;
+    }
+
+    .cpy-p{
+        font-size: .5rem;
+        padding: 2px 0;
+    }
+
+
+}
+@media only screen and (min-width: 768px){
+    .f-contact{
+        padding-left: 1rem;
+    }
+}
+
+@media only screen and (min-width: 741px) and  (max-width: 1024px){
+    .f-mid{
+        height: 50%;
+    }
+}

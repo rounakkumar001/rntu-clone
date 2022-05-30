@@ -1,0 +1,511 @@
+
+/* *************************************************** */
+/******** DROPDOWN MEGA MENU STYLING START****** */
+/* *************************************************** */
+
+.admission{
+    z-index: 10;
+    position: absolute;
+    width: 100%;
+    left: 0;
+    top: 10.4rem;
+    display: flex;
+    visibility: hidden;
+    justify-content: center;
+    background-color: whitesmoke;    
+}
+
+.section{
+    width: 19%;
+    padding: 1rem 0;
+}
+
+.section-head{
+    font-size: 1.2rem;
+    font-weight:580;
+    color: #1a3966;
+    padding: .8rem 0;
+}
+
+.section-item{
+    padding: .3rem 0;
+}
+
+.section-item a{
+    text-decoration: none;
+    color: rgb(80, 79, 79);
+    
+}
+
+.section-item a:hover{
+    text-decoration: underline;
+    color: #1e726e;
+}
+
+.close5:hover .admission {
+    visibility: visible;
+}
+
+.fixed2{
+    position: absolute;
+    top: 3.5rem;
+}
+
+/* *************************************************** */
+/******** DROPDOWN MEGA MENU STYLING END****** */
+/* *************************************************** */
+
+
+
+
+
+
+/* *************************************************** */
+/******** CAMPUS LIFE STYLING START****** */
+/* *************************************************** */
+
+.campus_life{
+    padding: 3rem 0;
+}
+
+.campus_head{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.c-head-title{
+    font-size: 3rem;
+    font-weight: 900;
+    text-align: center;
+    color: #1e726e;
+    text-align: center;
+}
+
+.c-head-subtitle{
+    font-size: 1.6rem;
+    font-weight: 500;
+    padding: .5rem 0;
+    color:rgb(100, 98, 98);
+    text-align: center;
+}
+
+.campus-cards{
+    display: flex;
+    justify-content: space-around;
+    padding: 2rem 0;
+}
+
+.card{
+    width: 30%;
+    padding: .5rem;
+    border-radius: .5rem;
+}
+
+.card:hover{
+    box-shadow: 1px .5px 12px rgb(194, 192, 192);
+    transition: .5s;
+    
+}
+
+.card img{
+    border-top-left-radius:.5rem;
+    border-top-right-radius:.5rem;
+}
+
+
+.card-title{
+    font-size: 1.65rem;
+    font-weight: 780;
+    padding: .5rem 0;
+}
+
+.card-title p{
+    color: #1a3966;
+    font-weight: 750;
+}
+
+.card-subtitle{
+    font-size: 1.2rem;
+    font-weight: 400;
+    color: rgb(78, 75, 75);
+    padding-top: .7rem;
+    padding-bottom: 1rem;
+}
+
+.card-link{
+    font-size: 1.1rem;
+    font-weight: 550;
+    color: rgb(92, 92, 252);
+    text-decoration: none;
+    
+}
+
+.card-link:hover{
+    color:rgb(63, 63, 250) ;
+}
+
+.fa-angle-right{
+    color: rgb(92, 92, 252);
+    padding-left: .3rem;
+}
+
+
+.card-link:hover ~ .fa-angle-right{
+    padding-left: .5rem ;
+    transition: .3s;
+}
+
+/* *************************************************** */
+/* ******CAMPUS LIFE STYLING END*******  */
+/* *************************************************** */
+
+
+
+
+
+
+
+/* *************************************************** */
+/* ******ADMISSION MEGA BANNAR STYLING START*******  */
+/* *************************************************** */
+
+.poster{
+    background-color: rgb(250, 235, 215);
+    padding: 3rem 0;
+}
+
+.poster-title{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.poster-head{
+    font-size: 3.5rem;
+    font-weight: 900;
+    padding-bottom:1rem ;
+    text-align: center;
+    color:#1a3966;
+}
+
+.poster-head2{
+    font-size: 1.6rem;
+    font-weight: 500;
+    color:rgb(100, 98, 98);
+    padding-bottom:1rem ;
+    text-align: center;
+}
+
+.poster-img{
+    display: flex;
+    justify-content: center;
+    overflow: hidden;
+    padding-top: 2rem;
+}
+
+.poster-img img{
+    width: 90%;
+}
+
+.poster-dis{
+    display: flex;
+    justify-content: space-around;
+    padding: 2rem 0;
+}
+
+.dis{
+    width: 40%;
+}
+
+.dis-bold{
+    font-size: 1.4rem;
+    font-weight: 800;
+    padding-bottom: 1rem ;
+    word-spacing: 3px;
+}
+
+.dis-lite{
+    font-size: 1.2rem;
+    font-weight: 400;
+    color:rgb(37, 37, 37);
+}
+
+/* *************************************************** */
+/* ******ADMISSION MEGA BANNAR STYLING END*******  */
+/* *************************************************** */
+
+
+
+
+
+
+
+
+/* *************************************************** */
+/* ******ABOUT AISECT STYLING START*******  */
+/* *************************************************** */
+
+#about{
+    padding: 3rem 0;
+}
+
+.title{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+#about_u_h{
+    font-size: 3.5rem;
+    font-weight: 900;
+    text-align: center;
+    color:#1e726e;
+}
+
+#about_u_p{
+    font-size: 1.80rem;
+    font-weight: 500;
+    padding: .9rem 0;
+    margin-bottom: 1.5rem ;
+    color:grey;
+    text-align: center;
+
+}
+
+.about_data{
+    display: flex;
+    justify-content: space-around;
+}
+
+.center{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 2rem 0;
+}
+
+.bold{
+    font-size: 2rem;
+    font-weight: 900;
+}
+
+.bold_ii{
+    font-size: 1.4rem;
+    font-weight: 550;
+    color: rgb(94, 91, 91);
+    
+}
+
+/* *************************************************** */
+/* ******ADMISSION MEGA BANNAR STYLING END*******  */
+/* *************************************************** */
+
+
+
+
+
+
+
+/* *************************************************** */
+/* ******MORE ABOUT BUTTON STYLING START*******  */
+/* *************************************************** */
+
+.about_btn{
+    display: flex;
+    justify-content: center;
+}
+
+#more_about{
+    font-size: 1.5rem;
+    font-weight: 650;
+    background: rgb(92, 92, 252);
+    color: white;
+    padding: .9rem 4rem;
+    cursor: pointer;
+    outline: none;
+    border: none;
+    border-radius: .2rem;
+    margin: 1rem 0;
+    transition: .5s;
+}
+
+#more_about:hover{
+    background-color:rgb(63, 63, 250) ;
+}
+
+/* *************************************************** */
+/* ******MORE ABOUT BUTTON STYLING END*******  */
+/* *************************************************** */
+
+
+
+/* *************************************************** */
+/* ******SPECIAL STYLING HERE*******  */
+/* *************************************************** */
+
+.hide{
+    display: none;
+}
+
+
+
+/* *************************************************** */
+/* ******SPECIAL STYLING END*******  */
+/* *************************************************** */
+
+
+
+
+
+
+
+
+
+
+/* ***************************************/
+/*****Media Query BREAKDOWN START*******/
+/* *************************************/
+
+@media only screen and (max-width : 755px){
+
+    #about_u_h{
+        font-size: 1.7rem;
+        font-weight: 900;
+    }
+    
+    #about_u_p{
+        font-size: 1.2rem;
+        font-weight: 500;
+        padding: .9rem .5rem;
+        margin-bottom: 1.5rem ;
+    }
+
+    .bold_ii{
+        font-size: 1.1rem;
+        font-weight: 550;
+    }
+
+    .bold{
+        font-size: 1.5rem;
+        font-weight: 900;
+    }
+    
+    #more_about{
+        font-size: 1.1rem;
+        font-weight: 650;
+        padding: .9rem 2rem;
+        margin: .9rem 0;
+        transition: .5s;
+    }
+
+    .campus-cards{
+        justify-content: space-around;
+        flex-direction: column;
+        align-items: center;
+    
+    }
+
+    .card{
+        width: 90%;
+        padding: .5rem;
+        border-radius: .5rem;
+        margin-bottom:1.8rem ;
+    }
+
+
+
+    .c-head-subtitle{
+        font-size: 1.1rem;
+        font-weight: 500;
+        padding: .6rem .5rem;
+        margin-bottom: 1rem ;
+    }
+
+    .c-head-title{
+        font-size: 1.7rem;
+        font-weight: 900;
+        text-align: center;
+    }
+
+
+    .section{
+        padding: 1rem 0;
+    }
+
+    .close5:hover .admission {
+        display: none;
+    }
+
+    .poster-dis{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .dis{
+        width: 90%;
+        padding-bottom: 2rem;
+    }
+
+    .dis-bold{
+        font-size: 1.2rem;
+        font-weight: 700;
+    }
+
+    .dis-lite{
+        font-size: 1rem;
+        font-weight: 400;
+        color:rgb(37, 37, 37);
+    }
+
+    .poster-head{
+        font-size:1.7rem;
+        padding-bottom:.6rem ;
+        color: #1a3966;
+    }
+
+    .poster-head2{
+        font-size: 1.1rem;
+        font-weight: 500;
+        padding: 0 .5rem;
+    }
+    .admission > .section{
+        width: 90%;
+    }
+        .admission{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .bold{
+        font-size: 1.2rem;
+    }
+
+    .hide{
+        display: inline-block;
+    }
+    
+    .card-title P{
+        font-size: 1.3rem;
+    }
+    
+    .card-subtitle p {
+        font-size: 1rem;
+    }
+    .card-link{
+        font-size: 1rem;
+    }
+
+}
+
+
+@media only screen and (min-width: 754px) and  (max-width : 785px ){
+    .lower li {
+        padding: 1.2rem .2rem;
+    }
+}
+
+/* ***************************************/
+/*****Media Query BREAKDOWN END*******/
+/* *************************************/

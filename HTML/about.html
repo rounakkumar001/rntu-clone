@@ -1,0 +1,421 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Our Courses</title>
+
+    <link rel="stylesheet" href="../CSS/index.css">
+    <link rel="stylesheet" href="../CSS/index2.css">
+    <link rel="stylesheet" href="../CSS/about.css">
+
+    <script src="https://kit.fontawesome.com/b356137dba.js" crossorigin="anonymous"></script>
+
+    <style>
+        .active {
+            color: #ec644b;
+        }
+
+        .active-nav-list {
+            color: black;
+        }
+        .admission-page {
+            visibility: visible;
+            z-index: -1;
+        }
+        
+        .page-title{
+            color:  rgba(5, 5, 230,.8);
+            font-weight: bold;
+        }
+
+    </style>
+</head>
+
+<body>
+
+    <nav id="navabr">
+        <div class="upper">
+            <div class="left">
+                <img src="../IMG/NEWLOGO-MAIN.png" alt="RNTU-img-sign2021" class="logo">
+            </div>
+            <div class="right">
+                <a href="tel:8407021034">
+                    <button class="btn">
+                        <span class="txt"> Contact Us </span><i class="fas fa-phone fa-sm phone"></i>
+                    </button>
+                </a>
+            </div>
+        </div>
+
+        <div class="header">
+            <!-- <h2>Scroll Indicator</h2> -->
+            <div class="progress-container">
+                <div class="progress-bar" id="myBar"></div>
+            </div>
+        </div>
+
+        <div class="hamburger-list">
+            <div class="top"></div>
+            <div class="middle"></div>
+            <div class="bottom"></div>
+        </div>
+        <div class="lower">
+
+            <ul type="none">
+                <li class="close close1"><a href="../index.html"><i class="fas fa-home "></i> Home</a></li>
+                
+                <li class="close close5"><a href="academics.html">Academics<i
+                            class="fas fa-caret-right"></i></a>
+                    <div class="admission">
+                        <div class="section section1">
+                            <p class="section-head">Faculty</p>
+                            <p class="section-item"><a href="#" style="color: black;">Agriculture</a> </p>
+                            <p class="section-item"><a href="#" style="color: black;">Humanities & Languages</a> </p>
+                            <p class="section-item"><a href="#" style="color: black;">Commerce</a> </p>
+                            <p class="section-item"><a href="#" style="color: black;">Information Technology</a> </p>
+                            <p class="section-item"><a href="#" style="color: black;">Education</a> </p>
+                            <p class="section-item"><a href="#" style="color: black;">Engineering & Technologies</a>
+                            </p>
+                            <p class="section-item"><a href="#" style="color: black;">Law</a> </p>
+                            <p class="section-item"><a href="#" style="color: black;">Management</a> </p>
+                            <p class="section-item"><a href="#" style="color: black;">Paramedical Science & Nursing</a>
+                            </p>
+                            <p class="section-item"><a href="#" style="color: black;">Science</a> </p>
+                        </div>
+                        <div class="section section2">
+                            <p class="section-head">Online Resources</p>
+                            <p class="section-item"><a href="#" style="color: black;">Online Classes Schedule</a> </p>
+                            <p class="section-item"><a href="#" style="color: black;">MOOCS</a> </p>
+                            <p class="section-item"><a href="#" style="color: black;">Konnect</a> </p>
+                        </div>
+                        <div class="section section3">
+                            <p class="section-head"> IODE</p>
+                            <p class="section-item"><a href="#" style="color: black;">Application for Recognition
+                                    Fron</a> </p>
+                            <p class="section-item"><a href="#" style="color: black;">Online Admission</a> </p>
+                            <p class="section-item"><a href="#" style="color: black;">LMS</a> </p>
+                            <p class="section-item"><a href="#" style="color: black;">Student Grievance Registration</a>
+                            </p>
+                            <p class="section-item"><a href="#" style="color: black;">SLM</a>
+                            </p>
+                        </div>
+                        <div class="section section4">
+                            <p class="section-head">Examination</p>
+                            <p class="section-item"><a href="#" style="color: black;">Online Examination</a> </p>
+                        </div>
+                    </div>
+                    <!--  -->
+                </li>
+                <li class="close close4"><a href="achievements.html">Achievements</a></li>
+                <li class="close close5"><a href="addmission.html">Admissions<i
+                            class="fas fa-caret-right"></i></a>
+                    <!--  -->
+                    <div class="admission">
+                        <div class="section section1">
+                            <p class="section-head">Admission</p>
+                            <p class="section-item"><a href="#" style="color: black;">Apply Online Admission</a> </p>
+                            <p class="section-item"><a href="#" style="color: black;">Admission Enquirey Form</a> </p>
+                            <p class="section-item"><a href="#" style="color: black;">Ph.D / M.phil Entrance Form</a>
+                            </p>
+                            <p class="section-item"><a href="#" style="color: black;">Brochure</a> </p>
+                            <p class="section-item"><a href="#" style="color: black;">Prospectus</a> </p>
+                            <p class="section-item"><a href="#" style="color: black;">Scholarship</a> </p>
+                            <p class="section-item"><a href="#" style="color: black;">Download Forms</a> </p>
+                            <p class="section-item"><a href="#" style="color: black;">Entrance Examination</a> </p>
+                        </div>
+
+                        <div class="section section2">
+                            <p class="section-head">Programmes by Type</p>
+                            <p class="section-item"><a href="#" style="color: black;">Under-Graduate</a> </p>
+                            <p class="section-item"><a href="#" style="color: black;">Post-Graduate</a> </p>
+                            <p class="section-item"><a href="#" style="color: black;">Doctoral</a> </p>
+                        </div>
+
+                        <div class="section section3">
+                            <p class="section-head"> Applying to RNTU</p>
+                            <p class="section-item"><a href="#" style="color: black;">Why RNTU ?</a> </p>
+                            <p class="section-item"><a href="#" style="color: black;">Scholarship</a> </p>
+                            <p class="section-item"><a href="#" style="color: black;">Counseling Center</a> </p>
+                            <p class="section-item"><a href="#" style="color: black;">Payment Procedure</a> </p>
+                            <p class="section-item"><a href="#" style="color: black;">International Student Cell</a>
+                            </p>
+                        </div>
+
+                        <div class="section section4">
+                            <p class="section-head"> Training & Placement</p>
+                            <p class="section-item"><a href="#" style="color: black;">About T & P</a> </p>
+                            <p class="section-item"><a href="#" style="color: black;">Internship & Placement Policy</a>
+                            </p>
+                            <p class="section-item"><a href="#" style="color: black;">Recruiters / Associates</a> </p>
+                            <p class="section-item"><a href="#" style="color: black;">Team</a> </p>
+                        </div>
+
+                        <div class="section section5">
+                            <p class="section-head">Campus Facilities</p>
+                            <p class="section-item"><a href="#" style="color: black;">Infrastructure</a> </p>
+                            <p class="section-item"><a href="#" style="color: black;">Academic Facilities</a> </p>
+                            <p class="section-item"><a href="#" style="color: black;">Transportation</a> </p>
+                            <p class="section-item"><a href="#" style="color: black;">Residential</a> </p>
+                            <p class="section-item"><a href="#" style="color: black;">Library</a> </p>
+                            <p class="section-item"><a href="#" style="color: black;">Art And Culture</a> </p>
+                            <p class="section-item"><a href="#" style="color: black;">Auditorium</a> </p>
+                            <p class="section-item"><a href="#" style="color: black;">Sports</a> </p>
+                        </div>
+                    </div>
+                    <!--  -->
+
+                </li>
+                <li class="close close5"><a href="campus.html">Campus Life<i
+                    class="fas fa-caret-right"></i></a>
+
+            <!--  -->
+            <div class="admission">
+                <div class="section section1">
+                    <p class="section-head">Campus Life</p>
+                    <p class="section-item"><a href="#" style="color: black;">Arts & Culture hub</a> </p>
+                    <p class="section-item"><a href="#" style="color: black;">Students Life</a> </p>
+                    <p class="section-item"><a href="#" style="color: black;">Academic Calender</a>
+                    </p>
+                    <p class="section-item"><a href="#" style="color: black;">Atheletics Fitness</a> </p>
+                    <p class="section-item"><a href="#" style="color: black;">Education & Student Support</a>
+                    </p>
+                    <p class="section-item"><a href="#" style="color: black;">Students Club</a> </p>
+                    <p class="section-item"><a href="#" style="color: black;">University Facilities</a> </p>
+
+                </div>
+                <div class="section section2">
+                    <p class="section-head">Student Facility</p>
+                    <p class="section-item"><a href="#" style="color: black;">Sports Recreation</a> </p>
+                    <p class="section-item"><a href="#" style="color: black;">Health & Safety</a> </p>
+                    <p class="section-item"><a href="#" style="color: black;">Housing & Dining</a> </p>
+                    <p class="section-item"><a href="#" style="color: black;">Success Stories</a> </p>
+                    <p class="section-item"><a href="#" style="color: black;">Landmark Events</a> </p>
+                    <p class="section-item"><a href="#" style="color: black;">Social Connect</a> </p>
+                    <p class="section-item"><a href="#" style="color: black;">Transportation</a> </p>
+                    <p class="section-item"><a href="#" style="color: black;">Cafeteria</a> </p>
+                    <p class="section-item"><a href="#" style="color: black;">PCS Facilities</a> </p>
+                </div>
+                <div class="section section3">
+                    <p class="section-head">Alumni</p>
+                    <p class="section-item"><a href="#" style="color: black;">Alumni Association</a> </p>
+                    <p class="section-item"><a href="#" style="color: black;">Membership</a> </p>
+                </div>
+                <div class="section section4">
+                    <p class="section-head">Student Contribution</p>
+                    <p class="section-item"><a href="#" style="color: black;">Aviral</a> </p>
+                    </p>
+                </div>
+        </li>
+                <li class="close"><a href="tempt.html">LogIn</a></li>
+                <li class="close"><a href="about.html" > <span class="page-title">About</span></a></li>
+            </ul>
+        </div>
+    </nav>
+
+
+
+    <!-- PosterHTML Start -->
+
+    <div class="about-main-poster">
+        <div class="about-img-section">
+            <img src="../IMG/AboutAISECTUniversity.jpg" alt="" class="about-poster-img">
+        </div>
+    </div>
+
+
+    <!-- PosterHTML End -->
+
+
+
+
+
+
+
+
+
+    <!--  -->
+    <div class="chartSection">
+        <div class="main-chartSection">
+            <div class="firstBreakPoint">
+                <div class="c-section c-section1">
+                    <p class="chart-head">About</p>
+                    <p class="chart-item"><a href="#" >&bull; About Rabindranath Tagore University</a> </p>
+                    <p class="chart-item"><a href="#" >&bull; AISECT The Foundation</a> </p>
+                    <p class="chart-item"><a href="#" >&bull; Why Rabindranath Tagore University</a></p>
+                </div>
+                <div class="c-section c-section2">
+                    <p class="chart-head">Information</p>
+                    <p class="chart-item"><a href="#" >&bull; Chancellor's Message</a> </p>
+                    <p class="chart-item"><a href="#" >&bull; Vice Chancellor's Message</a> </p>
+                    <p class="chart-item"><a href="#" >&bull; Organizational Scheme</a> </p>
+                    <p class="chart-item"><a href="#" >&bull; Partnerships</a> </p>
+
+                </div>
+             </div> 
+            <div class="secondBreakPoint">
+                <div class="c-section c-section3">
+                    <p class="chart-head">Bodies</p>
+                    <p class="chart-item"><a href="#" >&bull; Governing Body</a> </p>
+                    <p class="chart-item"><a href="#" >&bull; Board Of Management</a> </p>
+                    <p class="chart-item"><a href="#" >&bull; Finance Committee</a> </p>
+                    <p class="chart-item"><a href="#" >&bull; Academic Council</a> </p>
+                </div>
+                <div class="c-section c-section4">
+                    <p class="chart-head">Approvals</p>
+                    <p class="chart-item"><a href="#" >&bull; Approvals</a> </p>
+                    <p class="chart-item"><a href="#" >&bull; Recognitions</a> </p>
+                    <p class="chart-item"><a href="#" >&bull; Awards & Accolades</a> </p>
+                </div>
+            </div>   
+            <div class="thirdBreakPoint">
+                <div class="c-section c-section5">
+                    <p class="chart-head">Policies</p>
+                    <p class="chart-item"><a href="#" >&bull; Mission and Vision</a> </p>
+                    <p class="chart-item"><a href="#" >&bull; Code of Conduct</a> </p>
+                    <p class="chart-item"><a href="#" >&bull; University Objectives</a> </p>
+                    <p class="chart-item"><a href="#" >&bull; Research Policy</a> </p>
+                    <p class="chart-item"><a href="#" >&bull; Consultancy Policy</a> </p>
+                </div>
+            </div>
+    </div>
+    <!--  -->
+
+
+
+
+
+    <p style="opacity: .002;">
+        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Libero aliquid recusandae voluptatibus, id ab neque
+        quam tempore eaque voluptates soluta sint rem provident impedit reprehenderit nisi aperiam eos. Accusamus,
+        porro, consequuntur dolor nam suscipit quod iure dolorem necessitatibus aut quos officiis sint harum. Sequi
+        consequuntur repellat saepe reiciendis delectus, veritatis possimus. Magni vitae eos, unde repellat itaque
+        totam? Dolores, magni voluptates totam, itaque quidem molestiae laborum harum iure, pariatur assumenda nam. Odit
+        libero voluptatibus voluptatem est perferendis laborum illum repellendus unde laboriosam ducimus aspernatur
+        cumque beatae, saepe ratione. Reiciendis maxime sit vel sunt nobis corporis, ad fuga accusamus consequatur.
+        Architecto amet aspernatur hic quam sit! Delectus eum officiis minima animi id quaerat reprehenderit ducimus
+        dolor, veniam vero nam illo atque sunt maiores dolore quia nesciunt, odio impedit unde doloremque. Animi esse
+        temporibus enim rem laborum unde ab in, minima similique voluptate vitae modi cum quisquam nihil quis quo
+        possimus explicabo voluptatem? Fugiat necessitatibus vel, ut nam ipsam nulla blanditiis dolores numquam dolor ea
+        doloribus quidem sit placeat repellendus et temporibus sequi odit natus excepturi adipisci nisi illo iusto sint
+        at? Excepturi voluptatem incidunt, facere deserunt eveniet rerum unde quam velit libero hic modi provident nihil
+        vel in quis quaerat nesciunt. Provident, id veritatis quis, libero sint nam eveniet magni, iusto quae alias
+        praesentium rem tempora dolore exercitationem? Modi quaerat aliquam aut, est labore aperiam unde soluta
+        voluptatibus, iure voluptates alias. Veniam, nam. Fuga velit et omnis corporis vero, labore cumque, dolorum
+        suscipit beatae accusantium ratione impedit temporibus reiciendis, nam repellat sunt voluptatem quisquam. Velit
+        libero modi in dignissimos. Nam quibusdam obcaecati illum hic ea numquam ex quisquam asperiores exercitationem
+        explicabo aliquid aspernatur animi adipisci reiciendis deserunt reprehenderit architecto cupiditate iusto
+        voluptatem sunt ab, minima ratione fugiat? Facere, delectus illum. Facilis obcaecati possimus ut esse cum
+        accusantium dolor atque fugit. Repudiandae soluta incidunt nihil aperiam molestiae iste voluptatem tempore,
+        perferendis temporibus consequatur deleniti fugit tenetur eaque quasi vitae itaque accusantium voluptas ab quod!
+        Laboriosam natus architecto doloremque id nihil unde inventore sint explicabo atque, at quasi tenetur blanditiis
+        ab exercitationem vero, quo magnam et amet nobis, voluptas a? Alias, commodi! Consequatur odit laudantium
+        aliquam suscipit excepturi eius assumenda quo ut ducimus labore iure unde, beatae quas dolorem nihil dolore
+        aperiam sit. Officiis consectetur veniam dolore praesentium possimus inventore, quia error ipsa debitis
+        doloremque, dolorem quas totam id fuga facere consequatur magni? Nobis, repellat voluptatum fuga ipsa
+        exercitationem aspernatur sapiente accusantium error qui, consequatur soluta impedit nisi perferendis recusandae
+        perspiciatis quod autem vitae amet. Minus aliquam quas sunt explicabo id, veritatis praesentium unde debitis
+        nostrum et! Cupiditate dicta veritatis pariatur! Doloremque, aliquam corporis enim dicta harum quae, laudantium
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime eaque ex cumque deleniti? Sit reiciendis quos,
+        alias illum dignissimos omnis tempora minima eveniet voluptate unde sequi aut perspiciatis odio labore
+        laboriosam expedita. Exercitationem fugit, consectetur quas harum sunt laboriosam eligendi ut odio vero repellat
+        vel quo, temporibus quis necessitatibus nostrum neque possimus. Unde nemo odio enim voluptas! Illum et corrupti
+        hic dolore. Consectetur ab esse distinctio odio cum animi itaque deleniti vero ipsam unde, quam, alias illo hic
+        error soluta harum nemo ex repudiandae fuga. Quasi, voluptatibus. Ad ipsa consectetur earum rem voluptates
+        exercitationem alias, perferendis quam quis velit temporibus!
+    </p>
+
+
+
+
+
+
+
+    <footer id="footer">
+        <div class="subdiv">
+            <!-- FOOTER SECTION 01 -->
+            <div class="f-contact pad-left">
+                <h3 class="c-head space c-white"><i class="fas fa-map-marker-alt icon-pad"></i>Contact Us</h3>
+                <p class="address space">
+                    <i class="fas fa-paper-plane spc-icon icon-pad"></i>
+                    <a href="#" class="anchor">
+                        Rabindranath Tagore Univerysity, Village : Mendua, <br> Post :
+                        Bhojpur,
+                        Near Bangrasiay chouraha, Bhopal-Chiklod, District: Raisen (M.P);
+                    </a>
+                </p>
+                <div class="office space">
+                    <i class="fas fa-map-pin icon-pad spc-icon"></i> <span
+                        style="color: white; font-size: .8rem;">Administrative Office Enquiry</span>
+                </div>
+                <div class="phon-no space">
+                    <i class="fas fa-phone-volume icon-pad spc-icon"></i> <a href="tel:07552700401"
+                        class="anchor num1">07552700401</a> <i style="color: white;"> , </i><a href="tel:07552700447"
+                        class="anchor num2">07552700447</a>
+                </div>
+                <div class="email space">
+                    <i class="fas fa-envelope icon-pad spc-icon"></i> <a href="mailto:info@rntu.ac.in" target="_blank"
+                        class="anchor">info@rntu.ac.in</a>
+                </div>
+            </div>
+            <!-- SOCIAL MEDIA / FOOTER SECTION : 02-->
+            <div class="media pad-left">
+                <h3 class="m-head space space2 c-white"><i class="fas fa-link icon-pad"></i>Social Media</h3>
+                <div class="linkedin space space2"><i class="fab fa-linkedin icon-pad"></i><a href="#" class="anchor">
+                        Linkedin</a></div>
+                <div class="facebook space space2"><i class="fab fa-facebook-square icon-pad"></i><a href="#"
+                        class="anchor">Facebook</a></div>
+                <div class="twitter space space2"><i class="fab fa-twitter-square icon-pad"></i><a href="#"
+                        class="anchor">Twitter</a></div>
+                <div class="insta space space2"><i class="fab fa-instagram-square icon-pad"></i><a href="#"
+                        class="anchor">Instagram</a></div>
+                <div class="ytube space space2"><i class="fab fa-youtube icon-pad"></i><a href="#" class="anchor">You
+                        Tube</a></div>
+            </div>
+            <!-- FOOTER SECTION : 03 -->
+            <div class="gallery pad-left">
+                <h3 class="g-head space c-white"> <i class="fas fa-photo-video icon-pad"> <span
+                            style="font-family: Verdana, Geneva, Tahoma, sans-serif; font-size: 1rem;"> Media
+                            Gallery</span></i></h3>
+                <div class="photo space "> <i class="fas fa-image icon-pad"></i><a href="#" class="anchor"> Photo
+                        Gallery</a></div>
+                <div class="video space"><i class="fas fa-video icon-pad"></i><a href="#" class="anchor">Video
+                        Gallery</a></div>
+                <div class="press space"><i class="far fa-newspaper icon-pad"></i><a href="#" class="anchor">Press
+                        Coverage</a></div>
+            </div>
+            <!-- FOOTER SECTION 04 -->
+            <div class="f-mid">
+                <a href="https://rntu.ac.in/web/index.htm" target="_blank">
+                    <img src="../IMG/tour-thumbnnill.png" alt="Virtual Campus Tour" class="v-thambnil">
+
+                    <div class="text-vtour">
+                        <div class="down-direction text-icon"><i class="fas fa-hand-point-down"></i></div>
+                        <div class="text">Rabindranath Tagore Univerysity</div>
+                        <div class="text2">Virtual Campus Tour</div>
+                    </div>
+                </a>
+            </div>
+        </div>
+        <!-- FOOTER SECTION 05 -->
+        <div class="f-bottom">
+            <div class="f-img">
+                <img id="f-img-logo" src="../IMG/NEWLOGO-MAIN.png" alt="f-university-logo">
+            </div>
+            <div class="copyright">
+                <p class="cpy-p cpy-1">Copyright &#169; 2022 | Rabindranath Tagore Univerysity |</p>
+                <p class="cpy-p cpy-2">Design &#38; Developed By AISECT student(2020-2024) <a id="direct-cv"
+                        href="#BhardwajRohan-persiona-official-cv"> Bhardwaj Rohan </a></p>
+                <p class="cpy-p cpy-3">| All rights reserved |</p>
+                <p class="cpy-p cpy-4">Disclamer.</p>
+            </div>
+        </div>
+    </footer>
+
+</body>
+<script src="../JS/jquery-3.6.0.min.js"></script>
+<script src="../JS/index.js"></script>
+
+</html>
